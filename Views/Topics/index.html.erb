@@ -1,0 +1,8 @@
+<div class="post-list">
+  <% @posts.each do |post| %>
+    <ul>
+      <li><%= link_to <h1>post.title</h1>, post_path(post.id) %></li>
+      <li><%= <h3>"By:" post.author</h3> %></li>
+    </ul>
+  <% end %>
+</div>
